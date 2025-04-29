@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 17;
+        int age = 14;
         if (age >= 18) {
-            System.out.println("Ты можешь водить");
+            System.out.println(" Если возраст человека равен " +age+ " то он совершеннолетний");
         }
 
-        if (age < 18) {
-            System.out.println("Ты не можешь водить");
+        else {
+            System.out.println(" Если возраст человека равен " +age+ " то он не достиг совершеннолетия, нужно немного подождать");
             System.out.println();
         }
 
