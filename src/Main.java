@@ -20,7 +20,10 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + " км/ч можно ездить спокойно");
         }
-        int years = 27;
+        {
+            System.out.println("Задача 2");
+        }
+        int years = 5;
         if (years >= 2 && years <= 6) {
             System.out.println("Если возраст человека " + years + " , то ему нужно ходить в детский сад");
         }
@@ -30,22 +33,24 @@ public class Main {
         else if (years >= 18 && years <= 24) {
             System.out.println("Если возраст человека равен " + years + " ,то ему нужно ходить в институт");
         }
-        else  {
+        else if (years > 24){
             System.out.println("Если возраст человека " + years + " ,то ему нужно ходить на работу");
         }
-        int year = 8;
-        if (year < 5) {
-            System.out.println("Если возраст ребенка равен " + year + ",то ему нельзя кататься на атракционе");
-        } else if (year >= 5 && year < 14) {
-            System.out.println("Если возраст ребенка равен " + year + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
-        } else if (year >= 14) {
-            System.out.println("Если возраст ребенка равен " + year + ", то он может кататься  без сопровождения взрослого");
+        {
+            System.out.println("Задача 3");
         }
-        int human = 75;
-        if (human <= 60) {
-            System.out.println("В вагоне " + (60 - human) + " сидячих мест и 42 стоячих места");
-        } else if (human > 60 && human <= 102) {
-            System.out.println("В вагоне нет сидячих мест, но есть " + (102 - human) + " стоячих мест");
+        if (years < 5) {
+            System.out.println("Если возраст ребенка равен " + years + ",то ему нельзя кататься на атракционе");
+        } else if (years >= 5 && years < 14) {
+            System.out.println("Если возраст ребенка равен " + years + ", то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+        } else if (years >= 14) {
+            System.out.println("Если возраст ребенка равен " + years + ", то он может кататься  без сопровождения взрослого");
+        }
+        int place = 75;
+        if (place <= 60) {
+            System.out.println("Если в вагоне место под номером " + place + " то место сидячие");
+        } else if (place > 60 && place <= 102) {
+            System.out.println("Если в вагоне место под номером " +place+ ", то в вагоне нет сидячих мест оно будет стоячим");
         } else {
             System.out.println("Вагон заполнен");
         }
