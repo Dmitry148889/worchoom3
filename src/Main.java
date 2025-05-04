@@ -50,7 +50,7 @@ public class Main {
         if (place <= 60) {
             System.out.println("Если в вагоне место под номером " + place + " то место сидячие");
         } else if (place > 60 && place <= 102) {
-            System.out.println("Если в вагоне место под номером " +place+ ", то в вагоне нет сидячих мест оно будет стоячим");
+            System.out.println("Если в вагоне место под номером " +place+ ", то в вагоне нет сидячих мест оно будет стоячим.");
         } else {
             System.out.println("Вагон заполнен.");
         }
